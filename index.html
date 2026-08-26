@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>İyi ki Doğdun 🎉</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stars" id="stars"></div>
+
+<nav class="site-nav">
+  <a href="#hakkinda" class="nav-dot active" data-target="hakkinda" aria-label="Hakkında"></a>
+  <a href="#anasayfa" class="nav-dot" data-target="anasayfa" aria-label="Anasayfa"></a>
+</nav>
+
+<!-- 1. BÖLÜM: HAKKINDA -->
+<section id="hakkinda" class="section hero">
+  <div class="hero-inner">
+    <p class="eyebrow">özel bir gün için hazırlandı</p>
+    <h1 class="hero-title">Hakkında</h1>
+    <p class="hero-text">
+      Bu küçük sayfa, senin için hazırlandı. Aşağı kaydır,
+      balonları çek ve içindeki sürprizleri bir bir keşfet.
+    </p>
+    <button class="scroll-cue" id="scrollCue" aria-label="Aşağı kaydır">
+      <span class="scroll-cue-line"></span>
+      <span class="scroll-cue-text">kaydır</span>
+    </button>
+  </div>
+</section>
+
+<!-- 2. BÖLÜM: ANASAYFA -->
+<section id="anasayfa" class="section home">
+  <div class="home-inner">
+    <p class="eyebrow">balonu aşağı çek</p>
+    <h2 class="home-title">İyi ki Doğdun</h2>
+    <p class="home-sub">Her balonu çekerek bir hatırayı ortaya çıkar.</p>
+
+    <div class="cards-row">
+
+      <!-- KART 1 -->
+      <div class="card-wrap">
+        <div class="photo-box" data-box="1">
+          <div class="frost"></div>
+          <img class="photo" src="images/foto1.jpg" alt="Fotoğraf 1"
+               onerror="this.parentElement.classList.add('no-photo')">
+          <div class="placeholder-text">Fotoğrafını<br>buraya ekle</div>
+          <div class="hbd-label">
+            <span>Happy</span><span>Birthday</span>
+          </div>
+        </div>
+        <div class="string-wrap">
+          <div class="string"></div>
+          <div class="balloon balloon-pink" data-balloon="1" tabindex="0" role="button" aria-label="Balonu çek">
+            <div class="balloon-body"></div>
+            <div class="balloon-knot"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KART 2 -->
+      <div class="card-wrap">
+        <div class="photo-box" data-box="2">
+          <div class="frost"></div>
+          <img class="photo" src="images/foto2.jpg" alt="Fotoğraf 2"
+               onerror="this.parentElement.classList.add('no-photo')">
+          <div class="placeholder-text">Fotoğrafını<br>buraya ekle</div>
+          <div class="hbd-label">
+            <span>Happy</span><span>Birthday</span>
+          </div>
+        </div>
+        <div class="string-wrap">
+          <div class="string"></div>
+          <div class="balloon balloon-mint" data-balloon="2" tabindex="0" role="button" aria-label="Balonu çek">
+            <div class="balloon-body"></div>
+            <div class="balloon-knot"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KART 3 -->
+      <div class="card-wrap">
+        <div class="photo-box" data-box="3">
+          <div class="frost"></div>
+          <img class="photo" src="images/foto3.jpg" alt="Fotoğraf 3"
+               onerror="this.parentElement.classList.add('no-photo')">
+          <div class="placeholder-text">Fotoğrafını<br>buraya ekle</div>
+          <div class="hbd-label">
+            <span>Happy</span><span>Birthday</span>
+          </div>
+        </div>
+        <div class="string-wrap">
+          <div class="string"></div>
+          <div class="balloon balloon-yellow" data-balloon="3" tabindex="0" role="button" aria-label="Balonu çek">
+            <div class="balloon-body"></div>
+            <div class="balloon-knot"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KART 4 -->
+      <div class="card-wrap">
+        <div class="photo-box" data-box="4">
+          <div class="frost"></div>
+          <img class="photo" src="images/foto4.jpg" alt="Fotoğraf 4"
+               onerror="this.parentElement.classList.add('no-photo')">
+          <div class="placeholder-text">Fotoğrafını<br>buraya ekle</div>
+          <div class="hbd-label">
+            <span>Happy</span><span>Birthday</span>
+          </div>
+        </div>
+        <div class="string-wrap">
+          <div class="string"></div>
+          <div class="balloon balloon-purple" data-balloon="4" tabindex="0" role="button" aria-label="Balonu çek">
+            <div class="balloon-body"></div>
+            <div class="balloon-knot"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KART 5 -->
+      <div class="card-wrap">
+        <div class="photo-box" data-box="5">
+          <div class="frost"></div>
+          <img class="photo" src="images/foto5.jpg" alt="Fotoğraf 5"
+               onerror="this.parentElement.classList.add('no-photo')">
+          <div class="placeholder-text">Fotoğrafını<br>buraya ekle</div>
+          <div class="hbd-label">
+            <span>Happy</span><span>Birthday</span>
+          </div>
+        </div>
+        <div class="string-wrap">
+          <div class="string"></div>
+          <div class="balloon balloon-blue" data-balloon="5" tabindex="0" role="button" aria-label="Balonu çek">
+            <div class="balloon-body"></div>
+            <div class="balloon-knot"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- KART 6 -->
+      <div class="card-wrap">
+        <div class="photo-box" data-box="6">
+          <div class="frost"></div>
+          <img class="photo" src="images/foto6.jpg" alt="Fotoğraf 6"
+               onerror="this.parentElement.classList.add('no-photo')">
+          <div class="placeholder-text">Fotoğrafını<br>buraya ekle</div>
+          <div class="hbd-label">
+            <span>Happy</span><span>Birthday</span>
+          </div>
+        </div>
+        <div class="string-wrap">
+          <div class="string"></div>
+          <div class="balloon balloon-peach" data-balloon="6" tabindex="0" role="button" aria-label="Balonu çek">
+            <div class="balloon-body"></div>
+            <div class="balloon-knot"></div>
+          </div>
+        </div>
+      </div>
+
+     <!-- KART 7 -->
+      <div class="card-wrap">
+        <div class="photo-box" data-box="7">
+          <div class="frost"></div>
+          <img class="photo" src="images/foto7.jpg" alt="Fotoğraf 7"
+               onerror="this.parentElement.classList.add('no-photo')">
+          <div class="placeholder-text">Fotoğrafını<br>buraya ekle</div>
+          <div class="hbd-label">
+            <span>Happy</span><span>Birthday</span>
+          </div>
+        </div>
+        <div class="string-wrap">
+          <div class="string"></div>
+          <div class="balloon balloon-red" data-balloon="7" tabindex="0" role="button" aria-label="Balonu çek">
+            <div class="balloon-body"></div>
+            <div class="balloon-knot"></div>
+          </div>
+        </div>
+      </div>
+       <!-- KART 8 -->
+      <div class="card-wrap">
+        <div class="photo-box" data-box="8">
+          <div class="frost"></div>
+          <img class="photo" src="images/foto8.jpg" alt="Fotoğraf 8"
+               onerror="this.parentElement.classList.add('no-photo')">
+          <div class="placeholder-text">Fotoğrafını<br>buraya ekle</div>
+          <div class="hbd-label">
+            <span>Happy</span><span>Birthday</span>
+          </div>
+        </div>
+        <div class="string-wrap">
+          <div class="string"></div>
+          <div class="balloon balloon-pink" data-balloon="8" tabindex="0" role="button" aria-label="Balonu çek">
+            <div class="balloon-body"></div>
+            <div class="balloon-knot"></div>
+          </div>
+        </div>
+      </div>
+       <!-- KART 9 -->
+      <div class="card-wrap">
+        <div class="photo-box" data-box="9">
+          <div class="frost"></div>
+          <img class="photo" src="images/foto9.jpg" alt="Fotoğraf 9"
+               onerror="this.parentElement.classList.add('no-photo')">
+          <div class="placeholder-text">Fotoğrafını<br>buraya ekle</div>
+          <div class="hbd-label">
+            <span>Happy</span><span>Birthday</span>
+          </div>
+        </div>
+        <div class="string-wrap">
+          <div class="string"></div>
+          <div class="balloon balloon-pink" data-balloon="9" tabindex="0" role="button" aria-label="Balonu çek">
+            <div class="balloon-body"></div>
+            <div class="balloon-knot"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
